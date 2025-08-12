@@ -8,7 +8,6 @@ const About = () => (
   <section css={styles} className="about">
     <Container>
       <AboutInfo />
-      <AboutDate />
     </Container>
   </section>
 );

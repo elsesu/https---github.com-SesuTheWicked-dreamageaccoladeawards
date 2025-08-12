@@ -5,9 +5,9 @@ import Button from "../GlobalComponents/Button";
 const HeroInfo = () => (
   <div css={styles} className="info">
     <h2>
-      <span>SCIENCE</span> <br /> CONFERENCE
+      <span>DREAMAGE</span> <br /> MAGAZINE
     </h2>
-    <p>SHANGRI-LA HOTEL, BANGKOK, BANGKOK, THAILAND</p>
+    <p>PRESENTS-DREAMAGE ACCOLADES AWARDS</p>
     <Button btnTitle="More information" />
   </div>
 );

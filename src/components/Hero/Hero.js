@@ -3,8 +3,9 @@ import { css, jsx } from "@emotion/core";
 import Overlay from "../GlobalComponents/Overlay";
 import Container from "../GlobalComponents/Container";
 import Nav from "../Nav/Nav";
-import HeroBg from "../../img/heroBg.jpg";
+import HeroBg from "../Homepage photo/IMG-20250706-WA0015.jpg";
 import HeroInfo from "./HeroInfo";
+
 
 const Hero = () => (
   <section css={styles} className="hero" id="home">

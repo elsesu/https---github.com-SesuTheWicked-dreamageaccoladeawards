@@ -273,10 +273,7 @@ const Speaking = () => (
       <SpeakingCard
         speakerImg={doose}
       />
-        <SpeakingCard
-        speakerImg={doose}
-      />
-      
+       
       
     </Container>
     <div className="buttonWrap">

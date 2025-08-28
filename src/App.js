@@ -21,7 +21,6 @@ const App = () => (
     <Mission/>
     <Vision/>
     <Speaking />
-    <Pricing />
     <Sponsors />
     <Blog />
     <Contact />

@@ -5,7 +5,7 @@ import Button from "../GlobalComponents/Button";
 const HeroInfo = () => (
   <div css={styles} className="info">
     <h2>
-      <span>DREAMAGE</span> <br /> MAGAZINE
+      <span>DREAMAGE</span> <br /> AWARDS
     </h2>
     <p>PRESENTS-DREAMAGE ACCOLADES AWARDS</p>
     <Button btnTitle="More information" />

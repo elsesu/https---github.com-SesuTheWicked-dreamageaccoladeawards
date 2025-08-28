@@ -2,12 +2,12 @@
 import { css, jsx } from "@emotion/core";
 import Logo from "../../img/logo.png";
 import Overlay from "../GlobalComponents/Overlay";
-import FooterOneBg from "../../img/footerOne.jpg";
-import FooterTwoBg from "../../img/footerTwo.jpg";
-import FooterThreeBg from "../../img/footerThree.jpg";
-import FooterFourBg from "../../img/footerFour.jpg";
-import FooterFiveBg from "../../img/footerFive.jpg";
-import FooterSixBg from "../../img/footerSix.jpg";
+import FooterOneBg from "../Photo Gallery/20250713_162746.jpg";
+import FooterTwoBg from "../Photo Gallery/20250713_163420.jpg";
+import FooterThreeBg from "../Photo Gallery/20250713_163420.jpg";
+import FooterFourBg from "../Photo Gallery/20250713_162746.jpg";
+import FooterFiveBg from "../Photo Gallery/TON_6556.jpg";
+import FooterSixBg from "../Photo Gallery/Screenshot_20250713-225521_2.png";
 
 const FooterContainer = () => {
   const images = [

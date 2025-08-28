@@ -12,6 +12,7 @@ import Mission from "./components/Mission/Mission"
 import Vision from "./components/Vision/Vision";
 import "./App.css";
 import Video from "./components/Video/Video";
+import GalleryPage from "./components/Photo Gallery/Gallery";
 
 const App = () => (
   <React.Fragment>
@@ -23,6 +24,7 @@ const App = () => (
     <Speaking />
     <Sponsors />
     <Blog />
+    <GalleryPage/>
     <Contact />
     <Footer />
   </React.Fragment>

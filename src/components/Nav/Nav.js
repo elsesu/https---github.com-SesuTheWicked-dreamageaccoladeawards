@@ -12,10 +12,10 @@ const Nav = () => {
   return (
     <nav css={styles}>
       <Container isOpened={isOpened}>
-        <Logo />
+       
         <div className="wrapper">
           <Menu setIsOpened={setIsOpened} />
-          <Button btnTitle="Get tickets" />
+        
         </div>
       </Container>
       <i

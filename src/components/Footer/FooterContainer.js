@@ -42,24 +42,7 @@ const FooterContainer = () => {
 </div>
 
       </div>
-      <div className="footerCard third">
-        <h2>Workshops</h2>
-        <a href="#/">OSHA Compliance</a>
-        <a href="#/">Microsoft Excel Basics</a>
-        <a href="#/">Forum Speaker Series</a>
-        <a href="#/">Tedx Moscow Conference</a>
-      </div>
-      <div className="footerCard forth">
-        <h2>Gallery</h2>
-        <div className="imgContainer">
-          {images.map((img, index) => (
-            <div key={index} className="imgWrapper">
-              <Overlay overlay="linear-gradient(120deg, #505add 0%, #df42b1 100%)" />
-              <img src={img} alt="user" />
-            </div>
-          ))}
-        </div>
-      </div>
+      
     </div>
   );
 };

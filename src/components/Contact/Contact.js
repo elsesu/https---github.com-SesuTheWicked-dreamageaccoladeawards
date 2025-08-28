@@ -10,13 +10,12 @@ const Contact = () => (
     <Title subtitle="HAVE QUESTION?" title="CONTACT US" />
     <Container>
       <div className="contactInfo">
-        <ContactRow
-          contactSubtitle="Address:"
-          contactTitle="184 Main Collins Street"
-        />
-        <ContactRow contactSubtitle="Phone:" contactTitle="(226) 446 9371" />
-        <ContactRow contactSubtitle="Email:" contactTitle="confer@gmail.com" />
-        <ContactRow contactSubtitle="Website:" contactTitle="www.confer.com" />
+    
+        <ContactRow contactSubtitle="Phone:" contactTitle="09138500476," />
+        <ContactRow contactSubtitle="Email:" contactTitle="dreamagemagazine@gmail.com" />
+        <ContactRow contactSubtitle="Facebook:" contactTitle="DreamAge Accolades Awards" />
+        <ContactRow contactSubtitle="Twitter:" contactTitle="@DAACawards" />
+        <ContactRow contactSubtitle="Instagram:" contactTitle="DAAC AWARDS" />
       </div>
       <ContactForm />
     </Container>

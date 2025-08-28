@@ -21,41 +21,26 @@ const FooterContainer = () => {
 
   return (
     <div css={styles} className="footerContainer">
-      <div className="footerCard first">
-        <img src={Logo} alt="logo" />
-        <p>
-          To take a trivial example, which of us ever undertakes laborious
-          physical exercise, except to obtain.
-        </p>
-        <div className="socialWrap">
-          <div className="socialIcon">
-            <i className="fab fa-facebook-f fa-sm"></i>
-          </div>
-          <div className="socialIcon">
-            <i className="fab fa-instagram fa-sm"></i>
-          </div>
-          <div className="socialIcon">
-            <i className="fab fa-twitter fa-sm"></i>
-          </div>
-          <div className="socialIcon">
-            <i className="fab fa-linkedin-in fa-sm"></i>
-          </div>
-        </div>
-      </div>
+    
       <div className="footerCard second">
-        <h2>Contact</h2>
-        <p>
-          <i className="far fa-map fa-sm"></i> 184 Main Collins Street
-        </p>
-        <p>
-          <i className="fas fa-phone fa-sm"></i> (226) 446 9371
-        </p>
-        <p>
-          <i className="fas fa-envelope fa-sm"></i> confer@gmail.com
-        </p>
-        <p>
-          <i className="fas fa-globe-europe fa-sm"></i> www.confer.com
-        </p>
+        <div className="footerCard first">
+  
+  <div className="socialWrap">
+    <div className="socialIcon">
+      <i className="fab fa-facebook-f fa-sm"></i>
+    </div>
+    <div className="socialIcon">
+      <i className="fab fa-instagram fa-sm"></i>
+    </div>
+    <div className="socialIcon">
+      <i className="fab fa-twitter fa-sm"></i>
+    </div>
+    <div className="socialIcon">
+      <i className="fab fa-linkedin-in fa-sm"></i>
+    </div>
+  </div>
+</div>
+
       </div>
       <div className="footerCard third">
         <h2>Workshops</h2>

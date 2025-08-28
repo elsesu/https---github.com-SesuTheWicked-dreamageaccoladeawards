@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import Logo from "../../img/logo.png";
-import Overlay from "../GlobalComponents/Overlay";
 import FooterOneBg from "../Photo Gallery/20250713_162746.jpg";
 import FooterTwoBg from "../Photo Gallery/20250713_163420.jpg";
 import FooterThreeBg from "../Photo Gallery/20250713_163420.jpg";

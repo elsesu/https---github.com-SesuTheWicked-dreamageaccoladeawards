@@ -10,19 +10,10 @@ const BlogCard = ({ blogImg, blogTitle }) => (
     <div className="blogInfo">
       <h3>{blogTitle}</h3>
       <div className="blogDate">
-        <span>
-          <i className="far fa-clock fa-sm"></i>
-          January 14, 2019
-        </span>
-        <span>
-          <i className="far fa-user fa-sm"></i>
-          Laura Green
-        </span>
+       
+       
       </div>
-      <p>
-        Street Food Convention will showcase products like Packed food, beef and
-        lamb, street food.
-      </p>
+     
     </div>
     <div className="iconWrap">
       <div className="circle">

@@ -2,12 +2,12 @@
 import { css, jsx } from "@emotion/core";
 import Title from "../GlobalComponents/Title";
 import Container from "../GlobalComponents/Container";
-import BlogBg from "../../img/blogBg.jpg";
+import BlogBg from "../Projects/1741733339582.jpg";
 import Overlay from "../GlobalComponents/Overlay";
 import BlogCard from "./BlogCard";
-import BlogOneBg from "../../img/blogOne.jpg";
-import BlogTwoBg from "../../img/blogTwo.jpg";
-import BlogThreeBg from "../../img/blogThree.jpg";
+import BlogOneBg from "../Projects/DSC_7374.JPG_1.jpg";
+import BlogTwoBg from "../Projects/27.jpg";
+import BlogThreeBg from "../Projects/CSC_4667.JPG";
 
 const Blog = () => (
   <section css={styles} className="blog" id="blog">
@@ -15,11 +15,11 @@ const Blog = () => (
       overlay="linear-gradient(120deg, #505add 0%, #df42b1 100%)"
       opacity=".9"
     />
-    <Title subtitle="OUR BLOG" title="LATEST NEWS" />
+    <Title subtitle="OUR PROJECTS" title="LATEST NEWS" />
     <Container>
-      <BlogCard blogImg={BlogOneBg} blogTitle="Street Food Convention" />
-      <BlogCard blogImg={BlogTwoBg} blogTitle="Tedx Moscow Conference" />
-      <BlogCard blogImg={BlogThreeBg} blogTitle="Los Angeles Institute" />
+      <BlogCard blogImg={BlogOneBg} blogTitle="Cultural day" />
+      <BlogCard blogImg={BlogTwoBg} blogTitle="Girl In Focus Magazine" />
+      <BlogCard blogImg={BlogThreeBg} blogTitle="School Outreach Programe" />
     </Container>
   </section>
 );

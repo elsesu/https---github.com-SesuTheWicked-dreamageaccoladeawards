@@ -24,20 +24,44 @@ const FooterContainer = () => {
       <div className="footerCard second">
         <div className="footerCard first">
   
-  <div className="socialWrap">
-    <div className="socialIcon">
-      <i className="fab fa-facebook-f fa-sm"></i>
-    </div>
-    <div className="socialIcon">
-      <i className="fab fa-instagram fa-sm"></i>
-    </div>
-    <div className="socialIcon">
-      <i className="fab fa-twitter fa-sm"></i>
-    </div>
-    <div className="socialIcon">
-      <i className="fab fa-linkedin-in fa-sm"></i>
-    </div>
-  </div>
+        <div className="socialWrap">
+  <a 
+    href="https://www.facebook.com/DAACawards" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialIcon"
+  >
+    <i className="fab fa-facebook-f fa-sm"></i>
+  </a>
+
+  <a 
+    href="https://www.instagram.com/daac_awards/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialIcon"
+  >
+    <i className="fab fa-instagram fa-sm"></i>
+  </a>
+
+  <a 
+    href="https://x.com/DAACawards" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialIcon"
+  >
+    <i className="fab fa-twitter fa-sm"></i>
+  </a>
+
+  <a 
+    href="https://linkedin.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialIcon"
+  >
+    <i className="fab fa-linkedin-in fa-sm"></i>
+  </a>
+</div>
+
 </div>
 
       </div>
@@ -70,19 +94,31 @@ const styles = css`
       }
       .socialWrap {
         display: flex;
-        .socialIcon {
-          display: flex;
-          width: 34px;
-          height: 34px;
-          border-radius: 50%;
-          border: 1px solid #9293bc;
-          cursor: pointer;
-          margin-right: 10px;
-          transition: all 500ms ease-in-out;
-          &:hover {
-            background: #5d5e8d;
-            border: 1px solid #5d5e8d;
-          }
+        gap: 12px;
+      }
+      
+      .socialIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: #444675;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .socialIcon i {
+        font-size: 18px;
+      }
+      
+      .socialIcon:hover {
+        background: #1da1f2; /* Example: Twitter blue, you can change per icon */
+        transform: scale(1.1);
+      }
+      
           i {
             color: #fff;
             margin: auto;

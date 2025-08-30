@@ -10,28 +10,28 @@ const Menu = ({ setIsOpened }) => {
     },
     {
       name: "About Us",
-      href: "#pages",
+      href: "#about",
       id: "2",
     },
     {
-      name: "Mission",
+      name: "Awardees",
       href: "#speakers",
       id: "3",
     },
     {
       name: "Vision",
-      href: "#blog",
+      href: "#mission",
       id: "4",
     },
     {
-      name: "DAAC Awards",
+      name: "Contact",
       href: "#contact",
-      id: "",
+      id: "5",
     },
     {
       name: "Projects",
-      href: "#contact",
-      id: "",
+      href: "#blog",
+      id: "6",
     },
   ];
 

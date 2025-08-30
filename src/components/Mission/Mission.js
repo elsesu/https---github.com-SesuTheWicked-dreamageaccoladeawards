@@ -5,7 +5,7 @@ import AboutInfo from "./AboutInfo";
 import AboutDate from "./AboutDate";
 
 const Mission = () => (
-  <section css={styles} className="about">
+  <section css={styles} className="about" id="mission">
     <Container>
       <AboutInfo />
     </Container>

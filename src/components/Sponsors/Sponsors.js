@@ -13,16 +13,7 @@ const Sponsors = () => (
     <Container>
       <SponsorCard />
     </Container>
-    <Container>
-      <Testimonial
-        testimonialName="Maria Hernandez"
-        testimonialImg={TestimonialOneBg}
-      />
-      <Testimonial
-        testimonialName="Jacqueline Myers"
-        testimonialImg={TestimonialTwoBg}
-      />
-    </Container>
+    
   </section>
 );
 
